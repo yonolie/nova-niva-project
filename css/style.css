@@ -1,0 +1,150 @@
+
+
+nav {
+    background-color: gray;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+header nav ul li {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    
+    width: 100vw;
+    background-color: white;
+    padding: 0.8em;
+    
+}
+
+main {
+    height: 80em;
+}
+
+
+
+
+/* ----------------index  -----------------*/
+
+.index p {
+    font-size: 1em;
+    width: 70%;
+    color: white;
+    border-radius: 0.1em;
+    background-color:brown;
+    margin: auto;
+    
+    font-size: 100%;
+}
+
+.index h1 {
+    text-align: center;
+    color: brown;
+
+}
+
+.index h2 {
+    text-align: center;
+    color: brown;
+}
+
+
+
+
+
+
+
+
+
+/* ----------------favoriete -----------------*/
+.favoriete h1 {
+    text-align: center;
+    background-color: brown;
+    color: white;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.favoriete h2 {
+     font-size: 2em;
+    color: brown;
+    
+}
+.favoriete div {
+    font-size: 1em;
+    
+}
+    
+.favoriete section {
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+
+.favoriete div img {
+ align-items: center;
+ 
+}
+.favoriete p {
+font-size: 0.8em;
+}
+
+
+
+
+
+
+/* ----------------OVER HUN -----------------*/
+
+
+
+
+ .over h1 {
+    text-align: center;
+    background-color: brown;
+    color: white;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+.over h2 {
+    
+    color: brown;
+    font-size: 1.5em;
+}
+
+.over p {
+    font-size: 1em;
+    background-color: brown;
+    color: white;
+}
+
+.over section:nth-of-type(3) {
+    background-color: brown;
+    color: white;
+}
+
+.over iframe{ 
+    margin: 10px;
+    background-color: black;
+
+}
+
+
